@@ -12,6 +12,9 @@ class UpdateUser(BaseModel):
     lastname: str
     age: int
 
+class DeleteUser(BaseModel):
+    user_id: int
+
 class CreateTask(BaseModel):
     title: str
     content: str
